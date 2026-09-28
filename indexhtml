@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+          content="เว็บไซต์ Portfolio สำหรับแนะนำตัวและรวบรวมผลงานของฉัน">
+
+    <title>Portfolio ของฉัน</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    
+    <!-- ส่วนหัวเว็บไซต์ -->
+    <header>
+        <h1>สวัสดีครับ กะผม ณัฐวัศ ศรัทธาบุญ</h1>
+        <p>welcome to Portfolio </p>
+    </header>
+
+
+    <!-- ส่วนแนะนำตัว -->
+    <section id="about">
+        <h2>แนะนำตัว</h2>
+
+        <p>
+        ชื่อ-สกุล: นายณัฐวัศ ศรัทธาบุญ
+Name: Natthawat sattaboon
+ชื่อเล่น:นัท
+อายุ: 17
+วันเกิด:1 ตุลาคม 2008
+สัญชาติ:ไทย
+นับถือศาสนา:พุทธ
+        </p>
+    </section>
+
+
+    <!-- ส่วนผลงาน -->
+    <section id="projects">
+        <h2>ผลงานที่น่าสนใจ</h2>
+
+        <div class="project">
+            <h3>เป็นหลีดเมื่อตอนม.4</h3>
+            <p>
+                รู้สึกเป็นเกียรติมากที่ได้เป็นหลีดเพราะได้ฝึกเป็นผู้นำ
+            </p>
+        </div>
+
+        <div class="project">
+            <h3>open house</h3>
+            <p>
+                ได้มีโอกาสช่วยเพื่อนๆจัดร้านช่วยคิดขายของ
+            </p>
+            </div>
+
+        <div class="project">
+            <h3>เข้าค่ายstem</h3>
+            <p>
+                ได้รู้จักการทำงานร่วมกับผู้อื่น
+            </p>
+        </div>
+    </section>
+
+
+    <!-- ส่วนทักษะ -->
+    <section id="skills">
+        <h2>ทักษะของฉัน</h2>
+
+        <ul>
+            <li>ฟังเพลง</li>
+            <li>ชอบแสดง</li>
+            <li>ร้องเพลง์</li>
+            <li>เล่นกีฬา</li>
+        </ul>
+    </section>
+
+
+    <!-- ส่วนติดต่อ -->
+    <footer>
+        <h2>ช่องทาง</h2>
+
+        <p>
+            อีเมล:
+            <a href="nutnut110110@gmail.com">
+                nutnut110110@gmail.com
+            </a>
+        </p>
+        
+        <p>
+            &copy; <span id="year"></span> Nattawat. All rights reserved.
+        </p>
+    </footer>
+
+
+    <!-- เชื่อมต่อ JavaScript -->
+    <script src="script.js"></script>
+
+</body>
+</html>
