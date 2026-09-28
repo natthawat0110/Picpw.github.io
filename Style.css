@@ -1,0 +1,93 @@
+/* ตั้งค่าพื้นฐานของเว็บไซต์ */
+body {
+    font-family: "Trebuchet MS", Arial, sans-serif;
+    line-height: 1.8;
+    margin: 0;
+    padding: 0;
+    background-color: #FF6666;
+    color: #444;
+}
+/* ส่วนหัวเว็บไซต์ */
+header {
+    background: linear-gradient(135deg, #990000, #993300);
+    color: #ffffff;
+    padding: 35px 20px;
+    text-align: center;
+    border-bottom: 5px solid #ff6f91;
+}
+header h1 {
+    margin: 0 0 8px;
+    font-size: 32px;
+}
+
+header p {
+    margin: 0;
+    font-size: 17px;
+}
+
+
+/* ส่วนเนื้อหาหลัก */
+section {
+    padding: 25px;
+    margin: 25px auto;
+    max-width: 900px;
+    background-color: #ffffff;
+    border-radius: 15px;
+    border-left: 6px solid #ff8fab;
+    box-shadow: 0 4px 12px rgba(255, 111, 145, 0.15);
+}
+
+/* หัวข้อ */
+h2 {
+    color: #330000;
+    border-bottom: 2px dashed #ffb3c6;
+    padding-bottom: 8px;
+}
+
+/* กล่องแสดงผลงาน */
+.project {
+    margin: 15px 0;
+    padding: 18px;
+    background-color: #fff0f4;
+    border-radius: 12px;
+    border: 1px solid #ffc4d6;
+}
+
+.project h3 {
+    margin-top: 0;
+    color: #d94f70;
+}
+
+/* รายการงานอดิเรกหรือสิ่งที่สนใจ */
+ul {
+    padding-left: 25px;
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+li::marker {
+    color: #ff6f91;
+}
+
+/* ส่วนท้ายเว็บไซต์ */
+footer {
+    text-align: center;
+    padding: 25px;
+    background-color: #5c374c;
+    color: #ffffff;
+    margin-top: 35px;
+}
+
+footer a {
+    color: #ffd6e0;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+
+
