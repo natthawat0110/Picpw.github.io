@@ -4,12 +4,12 @@ body {
     line-height: 1.8;
     margin: 0;
     padding: 0;
-    background-color: #FF6666;
+    background-color: #fff5f8;
     color: #444;
 }
 /* ส่วนหัวเว็บไซต์ */
 header {
-    background: linear-gradient(135deg, #990000, #993300);
+    background: linear-gradient(135deg, #ff8fab, #ffb3c6);
     color: #ffffff;
     padding: 35px 20px;
     text-align: center;
