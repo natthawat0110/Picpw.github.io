@@ -4,17 +4,19 @@ body {
     line-height: 1.8;
     margin: 0;
     padding: 0;
-    background-color: #fff5f8;
-    color: #444;
+    background-color: #eef8ff;
+    color: #34495e;
 }
+
 /* ส่วนหัวเว็บไซต์ */
 header {
-    background: linear-gradient(135deg, #ff8fab, #ffb3c6);
+    background: linear-gradient(135deg, #2196f3, #81d4fa);
     color: #ffffff;
     padding: 35px 20px;
     text-align: center;
-    border-bottom: 5px solid #ff6f91;
+    border-bottom: 5px solid #1976d2;
 }
+
 header h1 {
     margin: 0 0 8px;
     font-size: 32px;
@@ -33,14 +35,15 @@ section {
     max-width: 900px;
     background-color: #ffffff;
     border-radius: 15px;
-    border-left: 6px solid #ff8fab;
-    box-shadow: 0 4px 12px rgba(255, 111, 145, 0.15);
+    border-left: 6px solid #42a5f5;
+    box-shadow: 0 4px 12px rgba(33, 150, 243, 0.15);
 }
+
 
 /* หัวข้อ */
 h2 {
-    color: #330000;
-    border-bottom: 2px dashed #ffb3c6;
+    color: #1976d2;
+    border-bottom: 2px dashed #90caf9;
     padding-bottom: 8px;
 }
 
@@ -48,14 +51,14 @@ h2 {
 .project {
     margin: 15px 0;
     padding: 18px;
-    background-color: #fff0f4;
+    background-color: #e3f4ff;
     border-radius: 12px;
-    border: 1px solid #ffc4d6;
+    border: 1px solid #90caf9;
 }
 
 .project h3 {
     margin-top: 0;
-    color: #d94f70;
+    color: #1565c0;
 }
 
 /* รายการงานอดิเรกหรือสิ่งที่สนใจ */
@@ -68,26 +71,19 @@ li {
 }
 
 li::marker {
-    color: #ff6f91;
+    color: #2196f3;
 }
+
 
 /* ส่วนท้ายเว็บไซต์ */
 footer {
     text-align: center;
     padding: 25px;
-    background-color: #5c374c;
+    background-color: #1565c0;
     color: #ffffff;
     margin-top: 35px;
 }
 
 footer a {
-    color: #ffd6e0;
-    text-decoration: none;
-}
-
-footer a:hover {
-    text-decoration: underline;
-}
-
-
-
+    color: #bbdefb;
+    text-decoration:
